@@ -154,10 +154,21 @@ li {
 
  // Arena Styles
 .arenacontent {
-  @include outer-container($max-width);
-  height: auto;
+  @include outer-container(100vw);
+  height: 100vh;
   font-family: 'VT323', ;
   overflow: hidden;
+  background-color: rgba(49, 52, 63, 1);
+}
+
+.traineronepicture {
+  position: absolute;
+  margin-top: 100px;
+}
+
+.trainertwopicture {
+  position: absolute;
+  margin-left: 700px;
 }
 
 .pokemondisplay {
