@@ -40,7 +40,7 @@ body {
 .start-button {
   position: absolute;
   top: 429px;
-  left: 933px;
+  left: 836px;
   display: block;
   width: 200px;
   height: 100px;
@@ -163,12 +163,16 @@ li {
 
 .traineronepicture {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 150px;
+  height: 400px;
+  width: 130px;
 }
 
 .trainertwopicture {
   position: absolute;
-  margin-left: 700px;
+  right: .1%;
+  top: 25%;
+  margin-right: -50px;
 }
 
 .pokemondisplay {
@@ -348,7 +352,7 @@ li {
   @include omega();
   height: 50px;
   text-align: center;
-  line-height: 50px;
+  line-height: 45px;
   background-color: white;
   margin-left: 5px;
   margin-top: 5px;
